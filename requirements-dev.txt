@@ -120,17 +120,13 @@ mysqlclient==2.1.1
 nest-asyncio==1.5.6
 oauthlib==3.2.2
 onnx==1.14.0
-onnxruntime==1.15.0
 openai==0.27.7
 opencv-python==4.7.0.72
-openpyxl==3.1.2
 opt-einsum==3.3.0
 orjson==3.9.0
 outcome==1.2.0
 overrides==7.3.1
 packaging==23.1
-pandas==2.0.2
-pandas-profiling==3.6.6
 pandocfilters==1.5.0
 parso==0.8.3
 patsy==0.5.3
@@ -206,9 +202,6 @@ statsmodels==0.14.0
 sympy==1.12
 tangled-up-in-unicode==0.2.0
 tenacity==8.2.2
-tensorboard==2.13.0
-tensorboard-data-server==0.7.0
-tensorboard-plugin-wit==1.8.1
 termcolor==2.3.0
 terminado==0.17.1
 terminaltables==3.1.10
