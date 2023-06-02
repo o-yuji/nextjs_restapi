@@ -164,7 +164,6 @@ python3-openid==3.2.0
 pyttsx3==2.90
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
-PyWavelets==1.4.1
 pywin32==306
 pywinpty==2.0.10
 PyYAML==6.0
