@@ -26,10 +26,12 @@ class TaskListView(generics.ListAPIView):
     serializer_class = TaskSerializer
     permission_classes = (AllowAny,)
 
+
 class TaskRetrieveView(generics.RetrieveAPIView):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
     permission_classes = (AllowAny,)
+
 
 class TaskViewSet(viewsets.ModelViewSet):
     queryset = Task.objects.all()

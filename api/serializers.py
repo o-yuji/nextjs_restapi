@@ -19,7 +19,8 @@ class PostSerializer(serializers.ModelSerializer):
         fields = ('id', 'title', 'content', 'created_at')
 
 class TaskSerializer(serializers.ModelSerializer):
-    created_at = serializers.DateTimeField(format="%Y-%m-%d %H:%M:%S",read_only=True)
+    created_at = serializers.DateTimeField(format="%Y-%m-%d %H:%M:%S", read_only=True)
+
     class Meta:
         model = Task
-        fields = ('id','title','created_at')
+        fields = ('id', 'title', 'created_at')
